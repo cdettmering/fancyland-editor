@@ -1,0 +1,56 @@
+local Shape = require(MATHPATH .. 'Shape')
+local Point = require(MATHPATH .. 'Point')
+
+return
+{
+    Shape:new(Point:new(0, 500),
+                Point:new(375, 500),
+                Point:new(375, 550),
+                Point:new(0, 550)),
+    Shape:new(Point:new(530, 500),
+                Point:new(790, 500),
+                Point:new(790, 550),
+                Point:new(530, 550)),
+    Shape:new(Point:new(910, 500),
+                Point:new(1280, 500),
+                Point:new(1280, 550),
+                Point:new(910, 550)),
+
+    -- second frame
+    
+    --downward slope
+    Shape:new(Point:new(1280, 500), 
+                Point:new(1425, 645),
+                Point:new(1280, 645)),
+
+    -- bottom path
+    --Rectangle:new(Point:new(1425, 645), 255, 50),
+    Shape:new(Point:new(1680, 645),
+                Point:new(1730, 615),
+                Point:new(1730, 645)),
+    --Rectangle:new(Point:new(1730, 615), 100, 50),
+    Shape:new(Point:new(1830, 615),
+                Point:new(1915, 700),
+                Point:new(1830, 700)),
+    --Rectangle:new(Point:new(1915, 700), 645, 50),
+
+
+    -- upper path
+    Shape:new(Point:new(1480, 500),
+                Point:new(1565, 460),
+                Point:new(1565, 500)),
+    Shape:new(Point:new(1565, 460),
+                Point:new(1635, 430),
+                Point:new(1635, 460)),
+    Shape:new(Point:new(1635, 430),
+                Point:new(1700, 385),
+                Point:new(1700, 430)),
+    Shape:new(Point:new(1700, 385),
+                Point:new(1920, 335),
+                Point:new(1920, 385)),
+    Shape:new(Point:new(1920, 335),
+                Point:new(1950, 320),
+                Point:new(1950, 335)),
+    --Rectangle:new(Point:new(1950, 320), 610, 50)
+
+}

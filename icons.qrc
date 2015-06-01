@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>icons/selectiontool.png</file>
+        <file>icons/terraintool.png</file>
+    </qresource>
+</RCC>
